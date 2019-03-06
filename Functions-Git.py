@@ -117,3 +117,11 @@ while guess != my_number:
 
 print("")
 print ("Great! That must have taken you awhile.")
+
+#Program Tracing
+# Matthew Beaver
+x = 20
+
+while x > 5:
+    print(x)
+    x = x - 2
