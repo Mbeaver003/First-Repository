@@ -71,7 +71,6 @@ def print_sum(x, y):
 print_sum(46, 62)
 
 
-
 # 4.16.3: Enter a Number using Try and Except
 # Matthew Beaver
 # 2.20.19
@@ -82,8 +81,6 @@ try:
 
 except ValueError:
     print('\n''That was not an integer.')
-
-
 
 
 # 4.16.4: Enter Name & Age using the Try & Except Rule
@@ -103,3 +100,20 @@ except ValueError:
 print('\n''Name:', name)
 print('Age:', age)
 
+#Matthew Beaver
+#1.14.19
+
+my_number = 7
+
+print ("Guess a number between 1 and 10")
+print ("")
+
+guess = int(input("Enter a guess: "))
+
+while guess != my_number:
+    print ("")
+    print ("Your number was wrong. Guess again!")
+    guess = int(input("Guess again: "))
+
+print("")
+print ("Great! That must have taken you awhile.")
